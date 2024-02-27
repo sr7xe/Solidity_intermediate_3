@@ -55,14 +55,4 @@ To deploy the GOA Token contract, you will need an Ethereum wallet with enough E
 2. **Deploy Contract:** Use your preferred tooling to compile and deploy the contract to the Ethereum network.
 3. **Interact with Contract:** After deployment, you can interact with the contract's functions using Ethereum wallets or programmatically through Ethereum libraries such as web3.js or ethers.js.
 
-## Security and Ownership
 
-The contract inherits from OpenZeppelin's `Ownable` contract, which provides basic authorization control functions. This simplifies the implementation of "user permissions" and ensures that only the contract owner can perform certain actions, like minting new tokens.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Disclaimer
-
-This README provides a basic overview of the contract's functionality. It is essential to conduct thorough testing and auditing of the smart contract before deploying it to a live blockchain environment. The creators of the GOA Token contract hold no liability for any issues or losses resulting from its use.
